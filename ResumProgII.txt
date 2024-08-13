@@ -1,0 +1,44 @@
+Repaso POO
+
+Abstracción, polimorfismo, encapsulamiento y herencia
+
+Para realizar un patrón de diseño
+
+Uso de interfaces como clases abstractas
+
+
+--//Control de versiones
+
+Se utiliza para mitigar la práctica común de copiar y pegar código, VCS (Version Control System),
+almacenando todos los cambios que se realizaron sobre un conjunto de archivos, generando así un
+historial de cambios, donde se puede ver cada modificación realizada en los archivos, y llegado el
+caso volver a una versión previa.
+
+
+-//Conceptos básicos comunes en cualquier sistema de versionamiento (Git, SVN, Mercurial)
+
+
+-/Commit: detalle de un cambio específico que se realizó a uno o más archivos bajo control de
+versiones. Tiene un autor asociado, una fecha y un comentario donde generalmente se describe
+que se cambió.
+
+-/Repositorio: lugar donde se almacenan todo el historial de cambios. Al trabajar con varios
+desarrolladores generalmente hay un repositorio compartido donde los diferentes programadores
+van subiendo sus cambios.
+
+-/Copia de trabajo: copia de los archivos bajo control de versiones, generalmente una carpeta,
+donde un programador hace los cambios en los archivos del proyecto y desde donde se generan los
+parches que van evolucionando en el proyecto.
+
+
+-//Git
+
+Es un proyecto de código abierto maduro y con un mantenimiento activo. Un VCS permite almacenar
+todos los cambios realizados sobre un conjunto de archivos manteniendo su historial y permitiendo
+ver (o restaurar) las versiones previas de estos archivos. No existe restriccion de tipo de
+archivos.
+
+Extensiones MarkDown (MD) generar documento formateados (marcadores) que funcionan como HTML
+similar a a frontend
+
+
