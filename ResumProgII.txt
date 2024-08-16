@@ -42,3 +42,67 @@ Extensiones MarkDown (MD) generar documento formateados (marcadores) que funcion
 similar a a frontend
 
 
+---///Base de datos I
+
+USE LIBRERIA_DBI_2024
+GO
+
+SELECT c.nom_cliente 'Cliente', v.nom_vendedor 'Vendedor', f.fecha 'Fecha', f.nro_factura 'Nro de Factura'
+FROM clientes c, vendedores v, facturas f
+WHERE c.cod_cliente = f.cod_cliente AND v.cod_vendedor = f.cod_vendedor AND YEAR(f.fecha) IN (2010,2017,2018,2022)
+
+SELECT v.nom_vendedor 'Vendedor que realizó ventas en 2024', f.nro_factura 'Nro de Factura', f.fecha 'Fecha de venta'
+FROM vendedores v, facturas f
+WHERE v.cod_vendedor = f.cod_vendedor AND YEAR(f.fecha) = '2024'
+
+SELECT df.nro_factura 'Nro de Factura', DATENAME(weekday, f.fecha) 'Día', FLOOR(df.pre_unitario * df.cantidad) 'Precio de producto', v.nom_vendedor 'Vendedor', c.nom_cliente 'Cliente'
+FROM facturas f, detalle_facturas df, articulos a, vendedores v, clientes c
+WHERE	df.nro_factura = f.nro_factura
+		AND v.cod_vendedor = f.cod_vendedor
+		AND c.cod_cliente = f.cod_cliente
+		AND a.cod_articulo = df.cod_articulo
+		AND MONTH(f.fecha) in (2,3)
+		AND YEAR(f.fecha) in (2016, 2020)
+		AND a.descripcion LIKE '[a-m]%'
+		ORDER BY FORMAT(f.fecha, 'dd/MM/yyyy')
+
+SELECT c.cod_cliente + ' - ' + c.nom_cliente + c.ape_cliente 'Cliente', b.barrio 'Barrio'
+FROM clientes c, vendedores v, barrios b
+WHERE	v.cod_barrio = b.cod_barrio
+		AND	c.nom_cliente LIKE '[c]%'
+		AND c.nom_cliente LIKE '%[z]'
+		AND b.barrio NOT LIKE '[n-p]'
+		OR c.nro_tel NOT NULL
+
+
+SELECT COUNT(v.cod_vendedor) 'Cantidad de ventas', v.nom_vendedor + v.ape_vendedor 'Vendedor'
+FROM vendedores v, facturas f
+WHERE f.cod_vendedor = v.cod_vendedor AND YEAR(f.fecha) = '2024'
+GROUP BY f.cod_vendedor, v.nom_vendedor , v.ape_vendedor
+HAVING COUNT(f.nro_factura) > 25
+
+
+/* Top 5 articulos más vendido */
+
+SELECT TOP 5 SUM(df.cantidad), descripcion, f.fecha 'Fecha'
+FROM detalle_facturas df, articulos a, facturas f
+WHERE df.nro_factura = f.nro_factura
+		AND a.cod_articulo = df.cod_articulo
+		AND f.nro_factura = df.nro_factura
+		AND YEAR(f.fecha) = YEAR(GETDATE())
+GROUP BY descripcion, f.fecha
+ORDER BY 1 DESC
+
+/* Mejor cliente en el 2024 */
+
+SELECT TOP 1 SUM(df.cantidad) 'Cantidad de productos comprados', c.nom_cliente + ' ' + c.ape_cliente 'Mejor cliente 2024'
+FROM detalle_facturas df, articulos a, facturas f, clientes c
+WHERE df.nro_factura = f.nro_factura
+		AND f.cod_cliente = c.cod_cliente
+		AND df.cod_articulo = a.cod_articulo
+		AND YEAR(f.fecha) = YEAR(GETDATE())
+GROUP BY c.nom_cliente, c.ape_cliente
+ORDER BY 1 DESC
+
+
+
