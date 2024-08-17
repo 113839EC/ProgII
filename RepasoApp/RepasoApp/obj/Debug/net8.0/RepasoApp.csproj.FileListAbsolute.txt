@@ -1,0 +1,15 @@
+C:\Users\Ema\Desktop\ProgramII\ProgII\RepasoApp\RepasoApp\bin\Debug\net8.0\RepasoApp.exe
+C:\Users\Ema\Desktop\ProgramII\ProgII\RepasoApp\RepasoApp\bin\Debug\net8.0\RepasoApp.deps.json
+C:\Users\Ema\Desktop\ProgramII\ProgII\RepasoApp\RepasoApp\bin\Debug\net8.0\RepasoApp.runtimeconfig.json
+C:\Users\Ema\Desktop\ProgramII\ProgII\RepasoApp\RepasoApp\bin\Debug\net8.0\RepasoApp.dll
+C:\Users\Ema\Desktop\ProgramII\ProgII\RepasoApp\RepasoApp\bin\Debug\net8.0\RepasoApp.pdb
+C:\Users\Ema\Desktop\ProgramII\ProgII\RepasoApp\RepasoApp\obj\Debug\net8.0\RepasoApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ema\Desktop\ProgramII\ProgII\RepasoApp\RepasoApp\obj\Debug\net8.0\RepasoApp.AssemblyInfoInputs.cache
+C:\Users\Ema\Desktop\ProgramII\ProgII\RepasoApp\RepasoApp\obj\Debug\net8.0\RepasoApp.AssemblyInfo.cs
+C:\Users\Ema\Desktop\ProgramII\ProgII\RepasoApp\RepasoApp\obj\Debug\net8.0\RepasoApp.csproj.CoreCompileInputs.cache
+C:\Users\Ema\Desktop\ProgramII\ProgII\RepasoApp\RepasoApp\obj\Debug\net8.0\RepasoApp.sourcelink.json
+C:\Users\Ema\Desktop\ProgramII\ProgII\RepasoApp\RepasoApp\obj\Debug\net8.0\RepasoApp.dll
+C:\Users\Ema\Desktop\ProgramII\ProgII\RepasoApp\RepasoApp\obj\Debug\net8.0\refint\RepasoApp.dll
+C:\Users\Ema\Desktop\ProgramII\ProgII\RepasoApp\RepasoApp\obj\Debug\net8.0\RepasoApp.pdb
+C:\Users\Ema\Desktop\ProgramII\ProgII\RepasoApp\RepasoApp\obj\Debug\net8.0\RepasoApp.genruntimeconfig.cache
+C:\Users\Ema\Desktop\ProgramII\ProgII\RepasoApp\RepasoApp\obj\Debug\net8.0\ref\RepasoApp.dll

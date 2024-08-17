@@ -1,6 +1,81 @@
+---/// Programación II
+
 Repaso POO
 
 Abstracción, polimorfismo, encapsulamiento y herencia
+
+--//Herencia
+
+-Relacion de generalización entre clases "es un"
+-Se establece una jerarquía de clases
+-Clase abstracta? Una clase que no se puede instanciar o crear objetos, se deben derivar, puede tener metodos abstractos
+pero concretos
+-Metodos abstractos? No tienen implementación en la clase base, no es obligatorio que una clase abstracta tenga un
+metodo abstracto
+-En C# todo es un objeto (derivados todos de system)
+-Que no se hereda? Metodos propios privados - constructores - atributo con el mismo nombre - metodo sobrecargado
+-Metodos virtuales - se deben definir e implementar su funcionalidad en la clase base
+
+-public virtual se redefine e implementa en la clase derivada como public override
+
+Sintaxis: 
+
+(class Hija : Padre)
+
+--//Abstracción
+
+Ver todas la información como una clase
+
+Clase abstracta? Una clase que no se puede instanciar
+
+--//Encapsulamiento
+
+Privacidad a partir de las propiedades de los atributos (atributos privados y propiedades y metodos accesibles y publicos)
+
+--//Polimorfismo
+
+Ligado a la herencia, mecanismo que permite que los objetos respondan a un mismo mensaje de diferente manera
+
+---------------------------------------------------------------------
+
+--//Interfaces
+
+Son una abstracción
+Nos permiten definir un contrato sobre el que podemos estar seguros de que las clases que se implementen lo van a cumplir
+Si dos clases representan dos implementaciones distintas de la misma funcinalidad, suelen ser muy util tener la
+posibilidad de intercambiar las implementaciones
+
+interface IContenedor
+{
+	void Quitar();
+	void Agregar(Contenido elemento);
+}
+
+---------------------------------------------------------------------
+
+--//Enumeraciones
+
+Clase especial que representa un grupo de constantes (variables inmutables/de solo lectura)
+Sexo, estado civil, los roles de usuario u opciones a ser ingresados en un menú
+Se puede utilizar para definir variables
+Para obtener el valor entero de un elemento debe convertirse explicitamente en INT
+Es posible indicar un ordinal diferente
+Es posible utilizarlo como casos de un switch (validaciones)
+
+---------------------------------------------------------------------
+
+--//Clases estaticas
+
+Contiene solo elementos estaticos
+No se puede crear una instancia
+Esta sellada (no se hereda)
+No puede contener constructores
+Atributos o metodos (Por ejemplo math)
+---------------------------------------------------------------------
+
+
+
+---------------------------------------------------------------------
 
 Para realizar un patrón de diseño
 

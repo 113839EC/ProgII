@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ema\\Desktop\\ProgramII\\ProgII\\RepasoApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{992204BB-9960-4999-8BDB-8E68151B737A}|RepasoApp\\RepasoApp.csproj|c:\\users\\ema\\desktop\\programii\\progii\\repasoapp\\repasoapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{992204BB-9960-4999-8BDB-8E68151B737A}|RepasoApp\\RepasoApp.csproj|solutionrelative:repasoapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{992204BB-9960-4999-8BDB-8E68151B737A}|RepasoApp\\RepasoApp.csproj|c:\\users\\ema\\desktop\\programii\\progii\\repasoapp\\repasoapp\\iprecio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{992204BB-9960-4999-8BDB-8E68151B737A}|RepasoApp\\RepasoApp.csproj|solutionrelative:repasoapp\\iprecio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{992204BB-9960-4999-8BDB-8E68151B737A}|RepasoApp\\RepasoApp.csproj|c:\\users\\ema\\desktop\\programii\\progii\\repasoapp\\repasoapp\\suelto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{992204BB-9960-4999-8BDB-8E68151B737A}|RepasoApp\\RepasoApp.csproj|solutionrelative:repasoapp\\suelto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{992204BB-9960-4999-8BDB-8E68151B737A}|RepasoApp\\RepasoApp.csproj|c:\\users\\ema\\desktop\\programii\\progii\\repasoapp\\repasoapp\\pack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{992204BB-9960-4999-8BDB-8E68151B737A}|RepasoApp\\RepasoApp.csproj|solutionrelative:repasoapp\\pack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{992204BB-9960-4999-8BDB-8E68151B737A}|RepasoApp\\RepasoApp.csproj|c:\\users\\ema\\desktop\\programii\\progii\\repasoapp\\repasoapp\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{992204BB-9960-4999-8BDB-8E68151B737A}|RepasoApp\\RepasoApp.csproj|solutionrelative:repasoapp\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Suelto.cs",
+              "DocumentMoniker": "C:\\Users\\Ema\\Desktop\\ProgramII\\ProgII\\RepasoApp\\RepasoApp\\Suelto.cs",
+              "RelativeDocumentMoniker": "RepasoApp\\Suelto.cs",
+              "ToolTip": "C:\\Users\\Ema\\Desktop\\ProgramII\\ProgII\\RepasoApp\\RepasoApp\\Suelto.cs",
+              "RelativeToolTip": "RepasoApp\\Suelto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T23:57:30.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Pack.cs",
+              "DocumentMoniker": "C:\\Users\\Ema\\Desktop\\ProgramII\\ProgII\\RepasoApp\\RepasoApp\\Pack.cs",
+              "RelativeDocumentMoniker": "RepasoApp\\Pack.cs",
+              "ToolTip": "C:\\Users\\Ema\\Desktop\\ProgramII\\ProgII\\RepasoApp\\RepasoApp\\Pack.cs",
+              "RelativeToolTip": "RepasoApp\\Pack.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T23:51:55.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\Ema\\Desktop\\ProgramII\\ProgII\\RepasoApp\\RepasoApp\\Producto.cs",
+              "RelativeDocumentMoniker": "RepasoApp\\Producto.cs",
+              "ToolTip": "C:\\Users\\Ema\\Desktop\\ProgramII\\ProgII\\RepasoApp\\RepasoApp\\Producto.cs",
+              "RelativeToolTip": "RepasoApp\\Producto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T23:44:21.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IPrecio.cs",
+              "DocumentMoniker": "C:\\Users\\Ema\\Desktop\\ProgramII\\ProgII\\RepasoApp\\RepasoApp\\IPrecio.cs",
+              "RelativeDocumentMoniker": "RepasoApp\\IPrecio.cs",
+              "ToolTip": "C:\\Users\\Ema\\Desktop\\ProgramII\\ProgII\\RepasoApp\\RepasoApp\\IPrecio.cs",
+              "RelativeToolTip": "RepasoApp\\IPrecio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T23:41:38.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Ema\\Desktop\\ProgramII\\ProgII\\RepasoApp\\RepasoApp\\Program.cs",
+              "RelativeDocumentMoniker": "RepasoApp\\Program.cs",
+              "ToolTip": "C:\\Users\\Ema\\Desktop\\ProgramII\\ProgII\\RepasoApp\\RepasoApp\\Program.cs",
+              "RelativeToolTip": "RepasoApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T23:28:20.633Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
